@@ -1,0 +1,2 @@
+# Module br.com.easynet.EasyNetGWT4
+# RPC service class, partial path of RPC policy file

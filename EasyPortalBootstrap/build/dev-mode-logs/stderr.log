@@ -1,0 +1,5 @@
+2017-12-02 09:20:43.851:INFO::main: Logging initialized @13993ms
+2017-12-02 09:20:51.492:INFO:oejs.Server:main: jetty-9.2.z-SNAPSHOT
+2017-12-02 09:20:51.559:INFO:oejsh.ContextHandler:main: Started o.e.j.s.ServletContextHandler@744c4066{/,null,AVAILABLE}
+2017-12-02 09:20:51.667:INFO:oejs.ServerConnector:main: Started ServerConnector@18424fc6{HTTP/1.1}{127.0.0.1:9876}
+2017-12-02 09:20:51.667:INFO:oejs.Server:main: Started @21810ms

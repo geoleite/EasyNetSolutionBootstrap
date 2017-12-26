@@ -1,0 +1,63 @@
+.container-general{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin:0;
+}
+.left-panel,
+.right-panel{
+    display: none;
+}
+.left-panel{
+    flex: 1;
+}
+.right-panel{
+    flex: 1;
+}
+.center-panel{
+    flex:1;
+    overflow: scroll;
+}
+.menu-button{
+    display: block;
+}
+.left-panel.opened,
+.right-panel.opened{
+    display: block;
+}
+#toggle-right{
+    float: right;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .menu-button{
+        display: none;
+    }
+    .left-panel,
+    .right-panel{
+        flex:2;
+        display: flex;
+    }
+    .center-panel{
+        flex:8;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .left-panel,
+    .right-panel{
+        flex:3;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+    
+}

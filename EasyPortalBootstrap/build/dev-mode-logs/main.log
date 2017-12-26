@@ -1,0 +1,2 @@
+Running CodeServer with parameters: [-noprecompile, -port, 9876, -sourceLevel, 1.8, -bindAddress, 127.0.0.1, -launcherDir, /Users/geoleite/NetBeansProjects/EasyNetSolution4/EasyPortalBootstrap/build/web, -logLevel, INFO, -style, OBFUSCATED, br.com.gm.EasyPortalBootstrap]
+Code server started in 10.46 s ms
