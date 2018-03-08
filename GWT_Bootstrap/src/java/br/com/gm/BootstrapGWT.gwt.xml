@@ -5,7 +5,8 @@
 <module>
     <inherits name="com.google.gwt.user.User"/>
 
-    <inherits name="br.com.gm.bootstrap.theme.Bootstrap3"/> 
+    <!--inherits name="br.com.gm.bootstrap.theme.Bootstrap3"/--> 
+    <!--inherits name="br.com.gm.bootstrap.theme.Bootstrap4"/--> 
     <!-- Inherit the default GWT style sheet. You can change -->
     <!-- the theme of your GWT application by uncommenting -->
     <!-- any one of the following lines. -->
@@ -13,7 +14,8 @@
     <!--inherits name="com.google.gwt.user.theme.chrome.Chrome"/--> 
     <!--inherits name="com.google.gwt.user.theme.dark.Dark"/-->
     
-    <entry-point class="br.com.gm.client.MainEntryPoint"/>
+    <!--entry-point class="br.com.gm.client.MainEntryPointBootstrap3"/-->
+    <entry-point class="br.com.gm.client.MainEntryPointBootstrap4"/>
     <set-property name="user.agent" value="gecko1_8" />
     <set-property name="locale" value="default" />
     <stylesheet src="gm/navcustom.css"/>
